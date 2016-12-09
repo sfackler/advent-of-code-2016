@@ -9,9 +9,9 @@ fn main() {
     let input = include_str!("../input.txt");
     let keypad = [["7", "8", "9"], ["4", "5", "6"], ["1", "2", "3"]];
 
+    let mut x = 1i32;
+    let mut y = 1i32;
     for line in input.lines() {
-        let mut x = 1i32;
-        let mut y = 1i32;
         for dir in line.trim().chars() {
             match dir {
                 'U' => y = clamp(y + 1, 0..3),
