@@ -1,8 +1,12 @@
 [root]
-name = "2"
+name = "3"
 version = "0.1.0"
 
 [[package]]
 name = "1"
+version = "0.1.0"
+
+[[package]]
+name = "2"
 version = "0.1.0"
 
